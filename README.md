@@ -1,4 +1,13 @@
-# Ticker-App
+<h1 align="center">Ticker App</h1>
+
+<br />
+<p align="center">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Reactjs" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+       <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node" />
+    <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge" alt="Express" />
+    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDb" />
+</p>
 
 Ticker-App is a full-stack MERN (MongoDB, Express, React, Node.js) application designed to display real-time financial data using the Bitfinex API. The frontend is built with React, Vite, Recoil for state management, and Tailwind CSS for styling. The backend is powered by Node.js and Express, and it connects to a MongoDB database.
 
@@ -59,13 +68,13 @@ ticker-app
 
 ## Features
 
-- Real-time financial data from Bitfinex API
-- State management with Recoil
-- Styling with Tailwind CSS
-- Fast development with Vite
-- Secure authentication with JWT
+- [x] Real-time financial data from Bitfinex API
+- [x] State management with Recoil
+- [x] Styling with Tailwind CSS
+- [x] Fast development with Vite
+- [x] Secure authentication with JWT
 - Cron job for periodic data snapshots
-- Responsive design
+- [x] Responsive design
 
 ## Prerequisites
 
