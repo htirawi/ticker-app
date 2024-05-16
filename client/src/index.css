@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-white;
+}
+
+html {
+  overflow: hidden;
+}
+
+header,
+footer {
+  @apply bg-white shadow-md py-4 px-8 fixed z-50;
+}
+
+.main-content {
+  @apply h-full overflow-hidden flex justify-center items-center mt-16 mb-16;
+}
