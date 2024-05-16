@@ -11,7 +11,8 @@ const app = express();
 connectDB();
 
 app.use(cors());
-app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 // Routes
 app.use('/api/auth', authRoutes);
