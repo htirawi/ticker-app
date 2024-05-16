@@ -18,9 +18,6 @@ Ticker-App is a full-stack MERN (MongoDB, Express, React, Node.js) application d
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Structure
 
